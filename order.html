@@ -17,65 +17,118 @@
     <header><b>Softcookies Terenak</b></Softcookies></header>
 
     <h1>Vadelicious</h1>
+    <h4><i>Cookies with a purpose </i></h4>
 
-    <div>NY Soft Cookies  Browkies  Crunchy Cookies </div>
+    <p><b>NY Soft Cookies  Browkies  Crunchy Cookies </b></p>
 
     <h3>Pesanan Anda</h3>
     <form action="">
         <div>
            Silakan pilih rasa yang Anda inginkan:
         </div>
+
         <br>
-        <label for="softcookies">Soft Cookies</label>
-        <div>
-            <input type="checkbox" name="softcookies" id="softcookies" value="chocheez">Chocheez
-        </div>
-        <div>
-            <input type="checkbox" name="softcookies" id="softcookies" value="blackpeanutbutter">Black Peanut Butter
-        </div>
-        <div>
-            <input type="checkbox" name="softcookies" id="softcookies" value="doublechoco">Double Choco
-        </div>
+
+        <label for="softcookies"><b>Soft Cookies</b></label>
+        <table>
+            <tr>
+                <div>
+                    <td><input type="checkbox" name="softcookies" id="softcookies" value="chocheez">Chocheez</td>
+                    <td><label for="quantity">Jumlah</label></td>
+                    <td><input type="number" name="quantity" id="quantity" min="1" max="100"></td>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <td><input type="checkbox" name="softcookies" id="softcookies" value="blackpeanutbutter">Black Peanut Butter</td>
+                    <td><label for="quantity">Jumlah</label></td>
+                    <td><input type="number" name="quantity" id="quantity" min="1" max="100"></td>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <td><input type="checkbox" name="softcookies" id="softcookies" value="doublechoco">Double Choco</td>
+                    <td><label for="quantity">Jumlah</label></td>
+                    <td><input type="number" name="quantity" id="quantity" min="1" max="100"></td>
+                </div>
+            </tr>
+        </table>
             
         <br>
-        <label for="browkies">Browkies</label>
-        <div>
-            <input type="checkbox" name="browkies" id="browkies" value="chocheez">Chocheez
-        </div>
-        <div>
-            <input type="checkbox" name="browkies" id="browkies" value="blackpeanutbutter">Black Peanut Butter
-        </div>
-        <div>
-            <input type="checkbox" name="browkies" id="browkies" value="doublechoco">Double Choco
-        </div>
+
+        <label for="browkies"><b>Browkies</b></label>
+        <table>
+            <tr>
+                <div>
+                    <td><input type="checkbox" name="chocheez" id="browkies" value="chocheez">Chocheez</td>
+                    <td><label for="quantity">Jumlah</label></td>
+                    <td><input type="number" name="quantity" id="quantity" min="1" max="100"></td>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <td><input type="checkbox" name="blackpeanutbutter" id="browkies" value="blackpeanutbutter">Black Peanut Butter</td>
+                    <td><label for="quantity">Jumlah</label></td>
+                    <td><input type="number" name="quantity" id="quantity" min="1" max="100"></td>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <td><input type="checkbox" name="doublechoco" id="browkies" value="doublechoco">Double Choco</td>
+                    <td><label for="quantity">Jumlah</label></td>
+                    <td><input type="number" name="quantity" id="quantity" min="1" max="100"></td>
+                </div>
+            </tr>
+        </table>
         
         <br>
-        <label for="crunchycookies">Crunchy Cookies</label>
-        <div>
-            <input type="checkbox" name="chocheez" id="crunchycookies" value="chocheez">Chocheez
-        </div>
-        <div>
-            <input type="checkbox" name="blackpeanutbutter" id="crunchycookies" value="blackpeanutbutter">Black Peanut Butter
-        </div>
-        <div>
-            <input type="checkbox" name="doublechoco" id="crunchycookies" value="doublechoco">Double Choco
-        </div>
+
+        <label for="crunchycookies"><b>Crunchy Cookies</b></label>
+        <table>
+            <tr>
+                <div>
+                    <td><input type="checkbox" name="chocheez" id="crunchycookies" value="chocheez">Chocheez</td>
+                    <td><label for="quantity">Jumlah</label></td>
+                    <td><input type="number" name="quantity" id="quantity" min="1" max="100"></td>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <td><input type="checkbox" name="blackpeanutbutter" id="crunchycookies" value="blackpeanutbutter">Black Peanut Butter</td>
+                    <td><label for="quantity">Jumlah</label></td>
+                    <td><input type="number" name="quantity" id="quantity" min="1" max="100"></td>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <td><input type="checkbox" name="doublechoco" id="crunchycookies" value="doublechoco">Double Choco</td>
+                    <td><label for="quantity">Jumlah</label></td>
+                    <td><input type="number" name="quantity" id="quantity" min="1" max="100"></td>
+                </div>
+            </tr>
+        </table>
+        
         <br>
-        <label for="quantity">Jumlah Pesanan</label>
-        <input type="number" name="quantity" id="quantity" min="1" max="100">
-        <br>
+
         <div>
-            <p>
+            <div>
                 <label for="address">Alamat Pengiriman</label>
-            </p>
-            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            </div>
+        <textarea name="address" id="address" cols="45" rows="5"></textarea>
         </div>
         
         <br>
+
         <label for="contact">Nomor Kontak</label>
-        <input type="text" name="contact" id="contact" placeholder="Masukkan nomor HP/WA Anda">
+        <input type="text" name="contact" id="contact" placeholder="Nomor HP/WA Anda">
+
         <br>
+
         <button type="submit">Submit</button>
     </form>
+
+    <footer>
+       <p>Copyright <sup>&copy;</sup> 2025 Vadelicious</p>
+    </footer>
 </body>
 </html>
