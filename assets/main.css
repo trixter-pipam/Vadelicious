@@ -101,25 +101,53 @@ p {
         font-size: 1.5rem;
     }
 }
-
 @media only screen and (max-width: 992px) {
-    #header-section {
+    #header {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
         align-items: center;
     }
-    #about-section, #contact-section {
+
+    #header > div, #about-section > div, #contact-section .contact-form-container {
+        width: 100%;
+    }
+    
+    #about-section, #contact-section, #footer {
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
 
+    #contact-section {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     #contact-form, #contact-info {
         display: flex;
         flex-direction: column;
-        padding: 0 16px;
-        margin: 16px 64px;
+        align-items: center;
+        text-align: center;
+        margin: 16px 0;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .contact-form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 16px 0;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .contact-form-container > div, .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
