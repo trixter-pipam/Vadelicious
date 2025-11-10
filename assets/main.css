@@ -50,7 +50,7 @@ h2 {
 
 p {
     font-size: 2rem;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #555;
 }
 
@@ -73,11 +73,6 @@ p {
     border: none;
 }
 
-#submit-btn {
-    display: flex;
-    
-}
-
 .img-fluid {
     border-radius: 8px;
     align-items: center;
@@ -95,6 +90,18 @@ form {
     padding: 32px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
+}
+
+#footer {
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-socials img {
+    width: 35px;
+    margin-left: 32px;
 }
 
 .form-group {
@@ -123,7 +130,6 @@ form {
 #input-message {
     grid-area: message;
 }
-
 @media (max-width: 576px) {
     h1 {
         font-size: 1.5rem;
