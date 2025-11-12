@@ -3,6 +3,8 @@ html, body {
     font-family: 'Nunito', sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 #navbar {
@@ -92,16 +94,22 @@ form {
     
 }
 
-#footer {
+footer {
+    color: #ff6f91;
     padding: 16px 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+footer p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 #footer-socials img {
     width: 35px;
-    margin-left: 32px;
+    margin-left: 35px;
 }
 
 .form-group {
